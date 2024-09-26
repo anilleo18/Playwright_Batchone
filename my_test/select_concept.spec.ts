@@ -46,8 +46,9 @@ test('Slelect with looping all the text ', async () => {
             await page.selectOption(select_xpath, { label: text_ele });
             break;
 
-
         }
+
+
 
     }
     await page.waitForTimeout(9000);
